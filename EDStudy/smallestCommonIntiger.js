@@ -20,7 +20,6 @@ let findLeastCommonNumber = function(arr1, arr2, arr3) {
       else if (arr3[k] <= arr1[i] && arr3[k] <= arr2[j]) {
         k++;
       }   
-    //   
     }
     return -1;
   };
@@ -32,3 +31,5 @@ let findLeastCommonNumber = function(arr1, arr2, arr3) {
   console.log("Array 2: " + printArray(v2));
   console.log("Array 3: " + printArray(v3));
   console.log("Least Common Number: " + findLeastCommonNumber(v1, v2, v3));
+
+//   This is linear O(n)
