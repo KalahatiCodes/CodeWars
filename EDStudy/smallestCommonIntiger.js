@@ -20,6 +20,7 @@ let findLeastCommonNumber = function(arr1, arr2, arr3) {
       else if (arr3[k] <= arr1[i] && arr3[k] <= arr2[j]) {
         k++;
       }   
+    //   
     }
     return -1;
   };
