@@ -11,3 +11,11 @@ let lowestToHighest = numbers.sort((a, b) => a - b);
 let highestToLowest = numbers.sort((a, b) => b-a);
 //Output: [500,44,32,15,13,5,1]
 
+// proper function
+let numArray = [140000, 104, 99];
+numArray.sort(function(a, b) {
+  return a - b;
+});
+
+console.log(numArray);
+// should return [99, 104, 140000]
