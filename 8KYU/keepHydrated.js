@@ -3,6 +3,11 @@
 // You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
 
 function litres(time) {
+  return Math.floor(time*0.5);
+}
+
+// first time
+function litres(time) {
     let water= 0
     for (let i = 1; i <= time; i++){
       water += 0.5

@@ -5,10 +5,5 @@
 // Given a year, return the century it is in.
 
 function century(year) {
-    if (year % 100 === 0){
-      return year / 100
-    } else{
-      return Math.ceil(year / 100)
-    }
-    return;
-  }
+  return Math.ceil(year/100);
+}

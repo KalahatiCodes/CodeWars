@@ -7,7 +7,20 @@
 // Example
 // For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 
+function countPositivesSumNegatives(input) {
+  let positives =0
+  let negatives =0
+  if (input===[]||input===null){
+    return []
+  } else {
+    input.forEach(x=> (x>0) ? positives += 1 : negatives += x)
+    return [positives, negatives]
+  }
+}
 
+
+OR
+// Kel's Way
 function countPositivesSumNegatives(input) {
     let posNum=0
     let negNum=0
