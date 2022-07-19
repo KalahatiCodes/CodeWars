@@ -10,3 +10,4 @@ function highAndLow(numbers){
     // return 
     return array[array.length -1] + ' ' + array[0]
   }
+  
